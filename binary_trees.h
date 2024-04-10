@@ -41,4 +41,4 @@ size_t binary_tree_height(const binary_tree_t *tree);
 
 
 
-#endif MAX(a, b) ((a) > (b) ? (a) : (b))
+#endif
