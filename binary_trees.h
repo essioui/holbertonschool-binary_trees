@@ -57,6 +57,9 @@ int _binary_tree_size(const binary_tree_t *tree);
 int complete(const binary_tree_t *tree, int size, int index);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
+int binary_tree_is_bst(const binary_tree_t *tree);
+int bst(const binary_tree_t *tree);
+int bst_h(const binary_tree_t *tree, int min, int max);
 
 
 
