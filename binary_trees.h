@@ -64,6 +64,8 @@ int binary_tree_is_bst(const binary_tree_t *tree);
 int bst(const binary_tree_t *tree);
 int bst_h(const binary_tree_t *tree, int min, int max);
 bst_t *bst_insert(bst_t **tree, int value);
+int gt(bst_t **new, bst_t **current, int value);
+int lt(bst_t **new, bst_t **current, int value);
 
 
 
